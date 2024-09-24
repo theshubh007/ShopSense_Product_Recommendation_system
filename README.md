@@ -17,10 +17,10 @@ I have used an amazon dataset on user ratings for electronic products, this data
 Objective -
 * Recommend products with highest number of ratings.
 * Target new customers with most popular products.
-* Solve the [Cold Start Problem](https://github.com/Vaibhav67979/Ecommerce-product-recommendation-system/blob/18d7fb2b8feafd117f7c3f9f859255c2e28cfbe4/ColdStartProblem.md)
+* Solve the [Cold Start Problem](https://github.com/theshubh007/ShopSense_Product_Recommendation_system/blob/main/ColdStartProblem.md)
 
 Outputs -
-* Recommend top 5 products with 50/100 minimum ratings/interactions.
+* Recommend top 5 products with 90/120 minimum ratings/interactions.
 
 Approach -
 * Calculate average rating for each product.
@@ -76,6 +76,3 @@ Approach -
 
 > The squared parameter in the mean_squared_error function determines whether to return the mean squared error (MSE) or the root mean squared error (RMSE). When squared is set to False, the function returns the RMSE, which is the square root of the MSE. In this case, you are calculating the RMSE, so you have set squared to False. This means that the errors are first squared, then averaged, and finally square-rooted to obtain the RMSE.
      
-
-| ⚠️  This project is solely for learning how recommedation systems work. ⚠️ |
-|-----------------------------------------------------------------------------|
